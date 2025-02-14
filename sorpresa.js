@@ -18,7 +18,7 @@ function typeQuestion() {
 setTimeout(typeQuestion, 500);
 
 yesBtn.addEventListener("click", () => {
-    responseMessage.textContent = "¡Sabía que dirías que sí Alexia Feliz San Valentin! ❤️✨";
+    responseMessage.textContent = "¡Sabía que dirías que sí Feliz San Valentin!❤️✨";
     responseMessage.style.display = "block";
     noBtn.style.display = "none";
     yesBtn.style.transform = "scale(1.2)";
